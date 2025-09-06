@@ -18,8 +18,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./vero-atlas
 
       - name: Build
         run: npm run build
-        working-directory: ./vero-atlas
