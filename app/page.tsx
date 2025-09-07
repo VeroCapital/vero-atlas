@@ -1,5 +1,7 @@
 import React from 'react';
 import { getKPIs } from '../lib/kpis';
+export const dynamic = 'error';
+
 
 // The home page displays some high-level KPIs.
 export default async function Page() {
