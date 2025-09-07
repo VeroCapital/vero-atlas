@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export -o out",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,7 +15,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "t"typescript": "5.2.2",
+    "typescript": "5.2.2",
     "@types/react": "18.2.14",
     "@types/node": "18.17.3"
   }
