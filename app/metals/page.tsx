@@ -1,6 +1,9 @@
 import React from 'react';
 import { getMetalsData } from '../../lib/data/metals';
 
+export const dynamic = 'error';
+
+
 export default async function MetalsPage() {
   const records = await getMetalsData();
   return (
