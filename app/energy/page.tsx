@@ -1,5 +1,7 @@
 import React from 'react';
 import { getEnergyData } from '../../lib/data/energy';
+export const dynamic = 'error';
+
 
 export default async function EnergyPage() {
   const records = await getEnergyData();
