@@ -1,5 +1,12 @@
+
+
+
+
 import React from 'react';
 import { getShippingData } from '../../lib/data/shipping';
+
+export const dynamic = 'error';
+
 
 export default async function ShippingPage() {
   const records = await getShippingData();
